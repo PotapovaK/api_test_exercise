@@ -25,7 +25,7 @@ describe('Get definite task', () => {
         });
     });
 
-    it('Create a task and get it by task_id', () => {
+    it('Get task by task_id', () => {
         cy.request({
             method:'GET',
             url: `https://todo.pixegami.io/get-task/${taskId}`,
